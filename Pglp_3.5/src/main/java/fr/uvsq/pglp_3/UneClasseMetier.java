@@ -12,8 +12,8 @@ import java.time.LocalDateTime;
  * @author andri
  */
 public class UneClasseMetier extends Affichage{
-    public void UneMethodeMetier(Affichage traitement, LocalDateTime local){
-        debut();
-        fin();
+    public void UneMethodeMetier(){
+        debut(); // log message
+        fin(); // log message
     }
 }
